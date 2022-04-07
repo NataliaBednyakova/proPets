@@ -1,0 +1,270 @@
+.top{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: #669885 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+}
+
+
+.logo{
+    margin-top: 24px;
+    margin-left: 151px;
+    width: 142px;
+    height: 33px;
+    background:url("img/mainPageImgs/proPetsLogo.png")no-repeat padding-box;
+    border: none;
+    opacity: 1;
+}
+
+.top > .btn1 {
+    top: 18px;
+    left: 1094px;
+    width: 112px;
+    height: 34px;
+    border: 1px solid #FFFFFF;
+    border-radius: 17px;
+    opacity: 1;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+}
+.btn1:hover{
+    border: none;
+    background-color: #FFE18B;
+    color: #393939;
+}
+
+.topWhiteRec{
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 623px;
+    background: #FFFFFF no-repeat padding-box;
+    opacity: 1;
+}
+
+.topWhiteRec > .doggo{
+    top: 79px;
+    left: 754px;
+    width: 452px;
+    height: 596px;
+    background: url("img/mainPageImgs/mainDoggo.png") no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    top: 169px;
+    margin-left: 151px;
+    width: 485px;
+    height: 204px;
+    color: #393939;
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 56px;
+    text-align: left;
+    letter-spacing: 0;
+}
+p > span{
+    top: 68px;
+    left: 0;
+    width: 369px;
+    height: 68px;
+    text-align: left;
+    font-family: "Montserrat Medium", sans-serif;
+    letter-spacing: 0;
+    color: #84B6A3;
+}
+
+.btn2{
+    top: 423px;
+    left: -21px;
+    width: 544px;
+    height: 93px;
+    border-radius: 0 50px 50px 0;
+    background-color: #FFE18B;
+    opacity: 1;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #393939;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #ffc445;
+}
+
+.btn3{
+    top: 516px;
+    left: -21px;
+    width: 470px;
+    height: 93px;
+    border-radius: 0 50px 50px 0;
+    background: #84B6A3 0 0 no-repeat padding-box;
+    opacity: 1;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: #669885;
+}
+
+.join{
+    top: 642px;
+    margin-left: 151px;
+    width: 435px;
+    height: 19px;
+    font-family: 'Montserrat Medium', sans-serif;
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
+    position: absolute;
+    font-size: 16px;
+    list-style: none;
+
+}
+.join > a{
+    font-family: "Montserrat Bold", sans-serif;
+    color: #84B6A3;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#link1{
+    color: #669885;
+}
+
+.middle{
+    top: 693px;
+    left: 0;
+    width: 100%;
+    height: 260px;
+    background: #669885 0 0 no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.middle > .middlePhrase{
+    margin-top: 84px;
+    margin-left: 261px;
+    width: 750px;
+    height: 92px;
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 32px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-align: center;
+    opacity: 1;
+    /*margin: auto;*/
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomWhiteRec{
+    top: 952px;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    opacity: 1;
+}
+
+.bottomWhiteRec > .animals{
+    margin-top: 65px;
+    margin-left: 113px;
+    width: 480px;
+    height: 322px;
+    background: transparent url('img/mainPageImgs/bottomAnimals.png') 0 0 no-repeat padding-box;
+    opacity: 1;
+}
+
+.bottomWhiteRec > span{
+    top: 70px;
+    left: 599px;
+    width: 602px;
+    height: 29px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0;
+    color: #669885;
+    opacity: 1;
+}
+
+.bottomWhiteRec > p{
+    top: 142px;
+    left: 631px;
+    width: 596px;
+    height: 288px;
+    text-align: left;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #393939;
+    opacity: 1;
+    position: relative;
+}
+
+
+.redRec{
+    top: 1402px;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    background: #FF6F61 0 0 no-repeat padding-box;
+    opacity: 1;
+}
+
+.redRec > .heart{
+    top: 10.5px;
+    left: 1066.5px;
+    width: 104px;
+    height: 104px;
+    background: transparent url('img/mainPageImgs/heart.png') 0 0 no-repeat padding-box;
+    opacity: 1;
+    float: right;
+}
+
+ .redRec > span{
+     top: 45px;
+     left: 636px;
+     width: 396px;
+     height: 57px;
+     text-align: left;
+     font-family: "Montserrat", sans-serif;
+     font-size: 16px;
+     letter-spacing: 0;
+     color: #FFFFFF;
+     opacity: 1;
+     float: right;
+}
+
+
+
+.bottom{
+    top: 1527px;
+    left: 0;
+    width: 100%;
+    height: 193px;
+    background: #669885 0 0 no-repeat padding-box;
+    opacity: 1;
+}

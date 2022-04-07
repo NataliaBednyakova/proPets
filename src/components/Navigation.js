@@ -1,9 +1,11 @@
 import React from 'react';
 import {favoritesPage, foundPage, homePage, lostPage, profilePage, servicesPage} from "../utils/Constants";
+import {Context} from "../utils/Context";
 
 const Navigation = () => {
     return (
-        <div>
+        <Context.Consumer>
+            {value => (
             <nav>
                 <ul>
                     <li className="btn btn-light btn-left" onClick={()=> window.location.hash=`#/${homePage}`}>Home</li>
@@ -14,7 +16,8 @@ const Navigation = () => {
                     <li onClick={()=> window.location.hash=`#/${profilePage}`}>Profile</li>
                 </ul>
             </nav>
-        </div>
+            )}
+        </Context.Consumer>
     );
 };
 
